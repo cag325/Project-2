@@ -1,11 +1,8 @@
-# Validating a Comprehensive Kinetic Modeling of $[rac-C_2H_4(1-indenyl)_2ZrMe_2]$-Catalyzed 1-Hexene Polymerization
+# Modeling shows that the NS5A inhibitor daclatasvir has two modes of action and yields a shorter estimate of the hepatitis C virus half-life
 
 ## Background 
-Olefins serve as one of the most utilized compounds in the chemical industry and a common building block for polyermization processes. However, their high reactivity at times poses a challenge for controling the manner of polymerization and the avoidance of undesired side products. Thus, current research is being devoted to increasing the efficiency of polymerization reactions with emphasis on the control of the site of polymerization. The use of single active site catalysis serves as a promising solution for polymerization control. 
-  
-The paper under investigation in this project sought to attain a mechanistic understanding of olefin polymerization reactions catalyzed by single active site catalysts. They elected to kinetically model one of the most studied of reactions of this class: 1-hexene polymerization by $(EBI)ZrMe_2 \ (EBI = rac-C_2H_4(1-Ind)_2) \ activated \ with \ B(C_6F_5)_3$. The construction of the kinetic model was collabrorated with multi-response experimental data with aim of establishing the most accurate mechanistic model of the initiation, propagation, and termination of this polymerization to date. Furthermore, the discovery of a rapid catalytic inactivation mechanism that gretaly inhibitis the reaction performance. 
+
 
 ## Objective 
-This project's objective was to replicate the kinetic model base on a set coupled differential equations proposed in the paper. Afterwhich, bifurcation and sensitivity analysis was codnucted on a specific parameter of interest.
-
+This project's objective was to replicate the viral dynamic model demonstrated in this paper...
 ## Model and Results of the Paper 
