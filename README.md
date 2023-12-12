@@ -9,7 +9,9 @@ This project's objective was to replicate the viral dynamic model demonstrated i
 The model demonstrated in this model consists of a system of three ordinary differential equations which can be seen in Figure 1 below. Our work began with attempting to replicate the model with the optimized parameters to the experimental data. In figure 2 we observe the decrease of HCV RNA over time following the admistration of daclastasvir and IFN-\alpha. Additionally, we note the quality fit generated from the system of differential equations.  
 ![image](https://github.com/cag325/Project-2/assets/144633699/14287549-125c-4d9f-8342-52bec6f66e21)
 Figure 1. System of differential equations to model the viral dynamics of HCV
+\
 ![image](https://github.com/cag325/Project-2/assets/144633699/7a23e423-3763-4382-bcee-9c4c69f175fe)
+\
 Figure 2. Plots of HCV RNA decreasing over time following administration of daclastasvir and IFN-\alpha (empty circles). Plots are complemented with the fits generated from the model (solid black lines).
 
 
