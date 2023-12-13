@@ -14,7 +14,7 @@ Figure 1. System of differential equations in the publication to model the viral
 \
 ![image](https://github.com/cag325/Project-2/assets/144633699/7a23e423-3763-4382-bcee-9c4c69f175fe)
 \
-Figure 2. Plots of HCV RNA decreasing over time following administration of daclastasvir and IFN-\alpha (empty circles). Plots are complemented with the fits generated from the model (solid black lines).
+Figure 2. Plots of HCV RNA decreasing over time following administration of daclastasvir and IFN- $\alpha$ (empty circles). Plots are complemented with the fits generated from the model (solid black lines).
 
 ## Replication of Model Published 
 Our work began with attempting to replicate the model shown in the paper with their reported optimized parameters. The concluded parameter values were as follows: clearance rate (c) = 23.3 $d^{-1}$, loss rate of infected cells ($\delta$) = 1.06 $d^{-1}$, and effectiveness in blocking viral production ($\epsilon$) = 0.997. However, as seen in the system of differential equations in Figure 1 there are several other parameters needed for this model. The paper referenced previous work that provided the valuing optimized parameters: rate constant of infection ($\beta$) = $3 x 10^{-7}$ $(virion \ per \ milliliter)^{-1} \ per \ day$, rate of production of virons per cell (p) = 8.3 $d^{-1}$. The only parameter that remained the rate at which target cells were produced. After extensive searching we were unable to identify an explicit value for this parameter but we found that Neumann Et. al reported the growth model invoked had little impact on the model. Thus, we used a logistic growth model $s(t) = T_0e^{kt}$ to represent the rate of target cell production where $T_0$ is the initial number of target cells in the model and k was assumed to be 1. With all these parameters at hand we generated the following model to fit the experimental data (Figure 3). 
@@ -24,6 +24,8 @@ Our work began with attempting to replicate the model shown in the paper with th
 The result above was of fair quality in appearence, however, it differed significantly from that shown in the paper (Figure 1). More specifically, the model reported in the paper appeared to capture the linearity of the experimental data greater than our model had. Therefore, we pursued optimizing our own parameters in an attempt to generate a more accurate model to that of the experimental data. We sought to optimize the parameters explicitly reported in the paper and none of those we found in the supporting reference papers because the parameter space would exceed the number of equations in our model. Our optimized parameters were as followed: clearance rate (c) = 22.3 $d^{-1}$, loss rate of infected cells ($\delta$) = 1.17 $d^{-1}$, and effectiveness in blocking viral production ($\epsilon$) = 0.488.Our resulting model was very similar in structure to the model we attempted to reconstruct and the error margins relative to the experimental data were also similar (Figure 4).   
 \ 
 ![image](https://github.com/cag325/Project-2/assets/144633699/6410bdcf-79f3-4bbc-a5c5-23fb5604abc5)
+\
+## Conclusion 1: We were unsuccessful in reconstructing the publish model using either the reported parameters or optimized parameters of our own. While neither model was ideal both appeared to be of resonable quality and demonstrated relatively sufficient accuracy to the experimental data. 
 
 
 
