@@ -17,6 +17,6 @@ Figure 1. System of differential equations in the publication to model the viral
 Figure 2. Plots of HCV RNA decreasing over time following administration of daclastasvir and IFN-\alpha (empty circles). Plots are complemented with the fits generated from the model (solid black lines).
 
 ## Replication of Model Published 
-Our work began with attempting to replicate the model shown in the paper with their reported optimized parameters. The concluded parameter values were as follows: clearance rate (c) = 23.3, $\delta $
+Our work began with attempting to replicate the model shown in the paper with their reported optimized parameters. The concluded parameter values were as follows: clearance rate (c) = 23.3, $\delta $ =
 
 
