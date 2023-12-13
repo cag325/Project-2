@@ -17,6 +17,6 @@ Figure 1. System of differential equations in the publication to model the viral
 Figure 2. Plots of HCV RNA decreasing over time following administration of daclastasvir and IFN-\alpha (empty circles). Plots are complemented with the fits generated from the model (solid black lines).
 
 ## Replication of Model Published 
-Our work began with attempting to replicate the model shown in the paper with their reported optimized parameters. The concluded parameter values were as follows: clearance rate (c) = 23.3, loss rate of infected cells ($\delta$) = 1.06 $d^{-1}$, effectiveness in blocking viral production ($\epsilon$) = 0.997  
+Our work began with attempting to replicate the model shown in the paper with their reported optimized parameters. The concluded parameter values were as follows: clearance rate (c) = 23.3 $d^{-1}$, loss rate of infected cells ($\delta$) = 1.06 $d^{-1}$, and effectiveness in blocking viral production ($\epsilon$) = 0.997. However, as seen in the system of differential equations in Figure 1 there are several other parameters needed for this model. The paper referenced previous work that provided the valuing optimized parameters: rate constant of infection ($\beta$) = $3 x 10^{-7}$ $(virion per milliliter)^{-1} per day$, rate of production of virons per cell (p) = 8.3 $d^{-1}$  
 
 
