@@ -22,7 +22,8 @@ Our work began with attempting to replicate the model shown in the paper with th
 ![image](https://github.com/cag325/Project-2/assets/144633699/d4b28c43-fed1-4c92-a130-5f158a538199)
 \
 Figure 3. Attempt to replicate the model reported by Guedj Et. al. 
-\
+
+
 The result above was of fair quality in appearence, however, it differed significantly from that shown in the paper (Figure 1). More specifically, the model reported in the paper appeared to capture the linearity of the experimental data greater than our model had. Therefore, we pursued optimizing our own parameters in an attempt to generate a more accurate model to that of the experimental data. We sought to optimize the parameters explicitly reported in the paper and none of those we found in the supporting reference papers because the parameter space would exceed the number of equations in our model. Our optimized parameters were as followed: clearance rate (c) = 22.3 $d^{-1}$, loss rate of infected cells ($\delta$) = 1.17 $d^{-1}$, and effectiveness in blocking viral production ($\epsilon$) = 0.488.Our resulting model was very similar in structure to the model we attempted to reconstruct and the error margins relative to the experimental data were also similar (Figure 4).   
 \ 
 ![image](https://github.com/cag325/Project-2/assets/144633699/6410bdcf-79f3-4bbc-a5c5-23fb5604abc5)
