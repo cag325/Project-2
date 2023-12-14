@@ -38,9 +38,11 @@ We next performed a bifurcation analysis to gain insight into the existing stead
 investigated (Figure 5 and 6).
 
 ![image](https://github.com/cag325/Project-2/assets/144633699/1440e09a-330f-4185-b29c-7a2051442e45)
+
 Figure 5. Bifurcation Analysis of the viral volume through viral clearance variation 
 
 ![image](https://github.com/cag325/Project-2/assets/144633699/28f91c78-89ae-4b9f-8a40-3d3dd42c757e)
+
 Figure 6. Bifurcation Analysis of the viral volume through drug effectiveness factor variation 
 
 ## Sensitivity Analysis
