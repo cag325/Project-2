@@ -47,15 +47,14 @@ The analysis then shifted from a local perspective to a global perspective. Thus
 \
 ![image](https://github.com/cag325/Project-2/assets/144633699/f4c049e9-1746-439d-9095-8dedd00700ca)
 \
-Figure 7. Global Sensitivity Analysis (Perturbations only to $c, \epsilon, and \delta$)
+Figure 7. Global Sensitivity Analysis (Perturbations only to $c, \ \epsilon, \ and \delta$)
 \
 ![image](https://github.com/cag325/Project-2/assets/144633699/0f5cd3a0-2068-48e6-9902-dcbab3991de1)
 \
+\
 Figure 8. The parity plot following the global sensitivity analysis and the resulting linear equation from normalized linear regression analysis.
 \
-
-
-\
+#### Conclusion
 
 
 
