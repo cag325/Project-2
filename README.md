@@ -46,16 +46,15 @@ Figure 6. Sensitivity of the Viral Volume as a function of each parameter. (Cont
 \
 \
 The analysis then shifted from a local perspective to a global perspective. Thus, we conducted a global sensitivity analysis to understanding the effects large perturbations have on the viral volume. The global sensitivity analysis was conducted twice, once on all seven parameters and again with a focus on the three parameters we previosuly sought to further optimize. Here we will discuss the global sensitivity analysis focues on the parameters $c, \epsilon, and \delta$. With perturbations of these three parameters by +/- 20% we notice an abundance of changes in the viral volume model (Figure 7). The construction of a parity plot from a linear regression analysis illustrated that large changes of the $\delta$ parameter had the greatest influence on the viral volume as shown by the magnitude of the coefficient in the linear equation (Figure 8). The parameters $c$ and $\epsilon$ had a very comparable influence on the global sensitivity.  
-\
+
 ![image](https://github.com/cag325/Project-2/assets/144633699/f4c049e9-1746-439d-9095-8dedd00700ca)
 \
 Figure 7. Global Sensitivity Analysis (Perturbations only to $c, \ \epsilon, \ and \ \delta$)
-\
+
 ![image](https://github.com/cag325/Project-2/assets/144633699/0f5cd3a0-2068-48e6-9902-dcbab3991de1)
-\
-\
+
 Figure 8. The parity plot following the global sensitivity analysis and the resulting linear equation from normalized linear regression analysis.
-\
+
 #### Conclusion
 
 
