@@ -21,17 +21,42 @@ Our work began with attempting to replicate the model shown in the paper with th
 \
 ![image](https://github.com/cag325/Project-2/assets/144633699/d4b28c43-fed1-4c92-a130-5f158a538199)
 \
+Figure 3. Attempt to replicate the model reported by Guedj Et. al. 
+\
 The result above was of fair quality in appearence, however, it differed significantly from that shown in the paper (Figure 1). More specifically, the model reported in the paper appeared to capture the linearity of the experimental data greater than our model had. Therefore, we pursued optimizing our own parameters in an attempt to generate a more accurate model to that of the experimental data. We sought to optimize the parameters explicitly reported in the paper and none of those we found in the supporting reference papers because the parameter space would exceed the number of equations in our model. Our optimized parameters were as followed: clearance rate (c) = 22.3 $d^{-1}$, loss rate of infected cells ($\delta$) = 1.17 $d^{-1}$, and effectiveness in blocking viral production ($\epsilon$) = 0.488.Our resulting model was very similar in structure to the model we attempted to reconstruct and the error margins relative to the experimental data were also similar (Figure 4).   
 \ 
 ![image](https://github.com/cag325/Project-2/assets/144633699/6410bdcf-79f3-4bbc-a5c5-23fb5604abc5)
+\
+Figure 4. Generation of our own model with differing optimized parameters.
 \
 #### Conclusion 1: We were unsuccessful in reconstructing the publish model using either the reported parameters or optimized parameters of our own. While neither model was ideal both appeared to be of resonable quality and demonstrated relatively sufficient accuracy to the experimental data. 
 
 
 ## Sensitivity Analysis
-The last component of this work was to perform a sensitivity analysis on the collection of parameters in the model. We began with the local sensitivity analysis and perturbed each parameter by 5% to gain insight into the sensitivity the model has with respect to each parameter. We observed small deviations in the model upon perturbations of $d, \delta, s, \beta, and p$ (Figure 5). While the more significant deviations were observed when perturbations were induced to $c$ and $\epsilon$.    
+The last component of this work was to perform a sensitivity analysis on the collection of parameters in the model. We began with the local sensitivity analysis and perturbed each parameter by 5% to gain insight into the sensitivity the model has with respect to each parameter. We observed small deviations in the model upon perturbations of $d, \delta, s, \beta, and \ p$ (Figure 5). While the more significant deviations were observed when perturbations were induced to $c$ and $\epsilon$. For the ease of interpretation the local sensitivity results were plot in manner such that sensitivity of $V$ can be seen as a function of each parameter (Figure 6). In this figure one can more clearly see how influential clearance rate and drug effectiveness factor are on the viral volume.   
 \
 ![image](https://github.com/cag325/Project-2/assets/144633699/43a337d8-ce85-4395-8ac5-57536f0ddd35)
+\
+Figure 5. Local Sensitivity Analysis of the influence of the parameter values on the model. (Note each parameter was perturbed by 5% of their reported value)
+\
+![image](https://github.com/cag325/Project-2/assets/144633699/d003d161-12b9-4ff9-a423-40c662fb30bc)
+\
+Figure 6. Sensitivity of the Viral Volume as a function of each parameter. (Continuation of the Local Sensitivity Analysis)
+\
+The analysis then shifted from a local perspective to a global perspective. Thus, we conducted a global sensitivity analysis to understanding the effects large perturbations have on the viral volume. The global sensitivity analysis was conducted twice, once on all seven parameters and again with a focus on the three parameters we previosuly sought to further optimize. Here we will discuss the global sensitivity analysis focues on the parameters $c, \epsilon, and \delta$. With perturbations of these three parameters by +/- 20% we notice an abundance of changes in the viral volume model (Figure 7). The construction of a parity plot from a linear regression analysis illustrated that large changes of the $\delta$ parameter had the greatest influence on the viral volume as shown by the magnitude of the coefficient in the linear equation (Figure 8). The parameters $c$ and $\epsilon$ had a very comparable influence on the global sensitivity.  
+\
+![image](https://github.com/cag325/Project-2/assets/144633699/f4c049e9-1746-439d-9095-8dedd00700ca)
+\
+Figure 7. Global Sensitivity Analysis (Perturbations only to $c, \epsilon, and \delta$)
+\
+![image](https://github.com/cag325/Project-2/assets/144633699/0f5cd3a0-2068-48e6-9902-dcbab3991de1)
+\
+Figure 8. The parity plot following the global sensitivity analysis and the resulting linear equation from normalized linear regression analysis.
+\
+
+
+\
+
 
 
 
