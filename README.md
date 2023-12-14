@@ -45,6 +45,8 @@ Figure 5. Bifurcation Analysis of the viral volume through viral clearance varia
 
 Figure 6. Bifurcation Analysis of the viral volume through drug effectiveness factor variation 
 
+#### Conclusion 2: The viral volume steady state was persistent throughout the parametric variations of viral clearance ($c$) and drug effectiveness factor ($\epsilon$). 
+
 ## Sensitivity Analysis
 The last component of this work was to perform a sensitivity analysis on the collection of parameters in the model. We began with the local sensitivity analysis and perturbed each parameter by 5% to gain insight into the sensitivity the model has with respect to each parameter. We observed small deviations in the model upon perturbations of $d, \delta, s, \beta, and \ p$ (Figure 7). While the more significant deviations were observed when perturbations were induced to $c$ and $\epsilon$. For the ease of interpretation the local sensitivity results were plot in manner such that sensitivity of $V$ can be seen as a function of each parameter (Figure 8). In this figure one can more clearly see how influential clearance rate and drug effectiveness factor are on the viral volume.   
 \
