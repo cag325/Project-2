@@ -16,7 +16,7 @@ Figure 1. System of differential equations in the publication to model the viral
 \
 Figure 2. Plots of HCV RNA decreasing over time following administration of daclastasvir and IFN- $\alpha$ (empty circles). Plots are complemented with the fits generated from the model (solid black lines).
 
-## Replication of Model Published 
+## Replication of the Published Model and Generation of Our Own Model  
 Our work began with attempting to replicate the model shown in the paper with their reported optimized parameters. The concluded parameter values were as follows: clearance rate (c) = 23.3 $d^{-1}$, loss rate of infected cells ($\delta$) = 1.06 $d^{-1}$, and effectiveness in blocking viral production ($\epsilon$) = 0.997. However, as seen in the system of differential equations in Figure 1 there are several other parameters needed for this model. The paper referenced previous work that provided the valuing optimized parameters: rate constant of infection ($\beta$) = $3 x 10^{-7}$ $(virion \ per \ milliliter)^{-1} \ per \ day$, rate of production of virons per cell (p) = 8.3 $d^{-1}$. The only parameter that remained the rate at which target cells were produced. After extensive searching we were unable to identify an explicit value for this parameter but we found that Neumann Et. al reported the growth model invoked had little impact on the model. Thus, we used a logistic growth model $s(t) = T_0e^{kt}$ to represent the rate of target cell production where $T_0$ is the initial number of target cells in the model and k was assumed to be 1. With all these parameters at hand we generated the following model to fit the experimental data (Figure 3). 
 \
 ![image](https://github.com/cag325/Project-2/assets/144633699/d4b28c43-fed1-4c92-a130-5f158a538199)
@@ -25,7 +25,14 @@ The result above was of fair quality in appearence, however, it differed signifi
 \ 
 ![image](https://github.com/cag325/Project-2/assets/144633699/6410bdcf-79f3-4bbc-a5c5-23fb5604abc5)
 \
-## Conclusion 1: We were unsuccessful in reconstructing the publish model using either the reported parameters or optimized parameters of our own. While neither model was ideal both appeared to be of resonable quality and demonstrated relatively sufficient accuracy to the experimental data. 
+#### Conclusion 1: We were unsuccessful in reconstructing the publish model using either the reported parameters or optimized parameters of our own. While neither model was ideal both appeared to be of resonable quality and demonstrated relatively sufficient accuracy to the experimental data. 
+
+
+## Sensitivity Analysis
+The last component of this work was to perform a sensitivity analysis on the collection of parameters in the model. We began with the local sensitivity analysis and perturbed each parameter by 5% to gain insight into the sensitivity the model has with respect to each parameter. We observed small deviations in the model upon perturbations of $d, \delta, s, \beta, and p$ (Figure 5). While the more significant deviations were observed when perturbations were induced to $c$ and $\epsilon$.    
+\
+![image](https://github.com/cag325/Project-2/assets/144633699/43a337d8-ce85-4395-8ac5-57536f0ddd35)
+
 
 
 
