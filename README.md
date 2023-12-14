@@ -4,7 +4,8 @@
 Hepatitis C virus is a major health burden in today's World, affecting over 150 million people. This virus often leads to further health complications and is one of the leading causes of liver cancer. Current treatment seeks to target non-structural (NS) viral protein. One of particular interest being NS5A which plays an important role in viral replication and infectious particle release. The aim of this study was to compare the efficacy of daclatasvir, a new NS5A drug target, and the current most common drug to treat HCV IFN- $\alpha$. In addition, this work sought to revise the current working model for viral infection published by Neumann Et. al and establish a new mathematical model for viral infection.   
 
 ## Objective 
-This project's objective was to replicate the viral dynamic model demonstrated in this paper given their optimized parameters reported in the paper. After which we attempted to generate our own set of optimized parameters to see how they compared to that reported. Following our own parameter optimization we sought to conduct a bifurcation analysis 
+This project's objective was to replicate the viral dynamic model demonstrated in this paper given their optimized parameters reported in the paper. After which we attempted to generate our own set of optimized parameters to see how they compared to that reported. Following our own parameter optimization we sought to conduct a bifurcation analysis of multiple parameters to investigate any changes caused by alterations to these parameter values. Lastly, we concluded our project with a sensitivity analysis, both local and global analysis, to evaluate the impact that the various parameters had on the model.
+
 ## Model and Results of the Paper 
 The model demonstrated in this model consists of a system of three ordinary differential equations which can be seen in Figure 1 below. Our work began with attempting to replicate the model with the optimized parameters to the experimental data. In figure 2 we observe the decrease of HCV RNA over time following the admistration of daclastasvir and IFN- $\alpha$. Additionally, we note the quality fit generated from the system of differential equations.  
 \
@@ -32,6 +33,8 @@ Figure 4. Generation of our own model with differing optimized parameters.
 
 #### Conclusion 1: We were unsuccessful in reconstructing the publish model using either the reported parameters or optimized parameters of our own. While neither model was ideal both appeared to be of resonable quality and demonstrated relatively sufficient accuracy to the experimental data. 
 
+## Bifurcation Analysis
+We next performed a bifurcation analysis to gain insight into the existing steady states of our viral volume model and to characterize the stability of these steady states. 
 
 ## Sensitivity Analysis
 The last component of this work was to perform a sensitivity analysis on the collection of parameters in the model. We began with the local sensitivity analysis and perturbed each parameter by 5% to gain insight into the sensitivity the model has with respect to each parameter. We observed small deviations in the model upon perturbations of $d, \delta, s, \beta, and \ p$ (Figure 5). While the more significant deviations were observed when perturbations were induced to $c$ and $\epsilon$. For the ease of interpretation the local sensitivity results were plot in manner such that sensitivity of $V$ can be seen as a function of each parameter (Figure 6). In this figure one can more clearly see how influential clearance rate and drug effectiveness factor are on the viral volume.   
