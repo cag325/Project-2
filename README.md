@@ -55,9 +55,13 @@ Figure 7. Global Sensitivity Analysis (Perturbations only to $c, \ \epsilon, \ a
 
 Figure 8. The parity plot following the global sensitivity analysis and the resulting linear equation from normalized linear regression analysis.
 
-#### Conclusion
+#### Conclusion 3: The local sensitivity analysis demonstrated that the drug effectiveness factor ($\epsilon$) had the greatest influence on the viral volume ($V$) model. We also note that the clearance rate ($c$) had the second greatest effects on the viral volume. In addition, a global sensitivity analysis illustrated that the system was most sensitive to the loss rate of infected cells ($\delta$) when large perturbations were invoked. 
+
+### Final Conclusions: 
 
 
+
+Paper of Study: https://www.pnas.org/doi/epdf/10.1073/pnas.1203110110
 
 
 
